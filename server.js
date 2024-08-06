@@ -13,7 +13,7 @@ import cors from "cors"
 const app = express();
 dotenv.config()
 app.use(cors({
-    origin:  'http://localhost:5173', // Update with your frontend URL
+    origin:  'https://vijay-07-shoppi.netlify.app', // Update with your frontend URL
     credentials: true // Allow credentials (cookies) to be sent
 }));
 app.use(express.json())             
